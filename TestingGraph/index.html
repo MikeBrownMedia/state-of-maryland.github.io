@@ -56,10 +56,11 @@
             },
             xAxis: [
               {
-                formatter: function () {
+                labels: {
+                    formatter: function () {
                     return moment(this.value).format('MMM DD');
-                  },
-
+                  }
+                },
                 categories: uniqueDates,
                 crosshair: true,
               },
