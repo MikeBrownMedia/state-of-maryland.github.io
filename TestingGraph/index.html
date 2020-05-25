@@ -25,10 +25,10 @@
     <script>
       //UPDATE COLUMN NAMES AND DATA URL HERE
       var DATE_COLUMN_NAME = 'Date';
-      var TOTAL_VOLUME_COLUMN_NAME = 'Total';
-      var PERCENT_POSITIVE_COLUMN_NAME = 'Moving_Average';
+      var TOTAL_VOLUME_COLUMN_NAME = 'number_of_tests';
+      var PERCENT_POSITIVE_COLUMN_NAME = 'percent_positive';
       var CSV_DATA_URL =
-        'dummy.csv';
+        'DailyTestingData.csv';
 
       var chart;
       Papa.parse(CSV_DATA_URL, {
